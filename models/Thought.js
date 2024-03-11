@@ -8,7 +8,7 @@ const ReactionSchema = new Schema({
     reactionBody: {
       type: String,
       required: true,
-      maxlength: 280, // Similar to a tweet's length
+      maxlength: 280, 
     },
     username: {
       type: String,
